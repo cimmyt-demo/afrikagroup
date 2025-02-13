@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Afrika Group | Revolutionizing the Igaming Industry</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo3.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="aassets/img/logo3.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo3.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo3.svg">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Revolutionizing the iGaming industry by connecting businesses with top affiliates, influencers, and industry leaders. Drive exponential growth through strategic partnerships." />
+    <meta name="keywords" content="iGaming, affiliates, influencers, industry leaders, business growth, strategic partnerships, networking, exponential growth" />
+    <meta name="author" content="Afrika Group" />
+    <meta property="og:title" content="Revolutionizing the iGaming Industry" />
+    <meta property="og:description" content="We connect businesses with affiliates, influencers, and industry leaders to drive exponential growth in the iGaming sector." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://afrikagroup.io" />
+    <meta property="og:image" content="assets/img/logo3.svg" />
+    <meta name="twitter:card" content="assets/img/logo3.svg" />
+    <meta name="twitter:title" content="Revolutionizing the iGaming Industry" />
+    <meta name="twitter:description" content="We build connections that drive exponential growth in the iGaming sector by pairing businesses with key industry players." />
+    <meta name="twitter:image" content="assets/img/logo3.svg" />
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="vendors/prism/prism.css" rel="stylesheet">
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/user.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo3.svg" style="height: 70px;width: auto;;" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white fs-3"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">About</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" aria-current="page" href="contact-us.html">Contact Us</a></li> -->
+              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link btn btn-light text-black w-md-25 w-50 w-lg-100" aria-current="page" href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-dark"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+
+        <style>
+          .sun {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              top: 15em;
+              left: 15em;
+              width: 10em;
+              height: 10em;
+              border-radius: 50%;
+              box-shadow: 0 0 3em rgb(255, 128, 0);
+              animation: orbit 50s linear infinite;
+          }
+          .mercury,
+          .venus,
+          .earth,
+          .moon,
+          .mars,
+          .jupiter,
+          .saturn,
+          .uranus,
+          .neptune,
+          .pluto {
+              position: absolute;
+              border-style: solid;
+              border-color: white transparent transparent transparent;
+              border-width: 0.1em 0.1em 0 0;
+              border-radius: 50%;
+          }
+          .mercury {
+              top: 12.5em;
+              left: 12.5em;
+              width: 15em;
+              height: 15em;
+              animation: orbit 68.7s linear infinite;
+          }
+
+          .venus {
+              top: 10em;
+              left: 10em;
+              width: 20em;
+              height: 20em;
+              animation: orbit 48.7s linear infinite;
+          }
+
+          .earth {
+              top: 6em;
+              left: 6em;
+              width: 28em;
+              height: 28em; 
+              animation: orbit 36.5s linear infinite;   
+          }
+          .moon {
+              top: 2em;
+              right: -1em;
+              width: 7em;
+              height: 7em; 
+              animation: orbit 2.7s linear infinite;
+          }
+          .mars {
+              top: 2em;
+              left: 2.5em;
+              width: 36em;
+              height: 36em; 
+              animation: orbit 26.5s linear infinite;
+          }
+          .jupiter {
+              top: -2em;
+              left: -2em;
+              width: 45em;
+              height: 45em; 
+              animation: orbit 21s linear infinite;
+          }
+          .saturn {
+              top: -7em;
+              left: -7em;
+              width: 55em;
+              height: 55em; 
+              animation: orbit 17s linear infinite;
+          }
+          .uranus {
+              top: -12em;
+              left: -12em;
+              width: 65em;
+              height: 65em; 
+              animation: orbit 19s linear infinite;
+          }
+          .neptune {
+              top: -17em;
+              left: -17em;
+              width: 75em;
+              height: 75em; 
+              animation: orbit 15s linear infinite;
+          }
+          .pluto {
+              top: -22em;
+              left: -22em;
+              width: 85em;
+              height: 85em; 
+              animation: orbit 18s linear infinite;
+          }
+
+          .mercury::before,
+          .venus::before,
+          .earth::before,
+          .moon::before,
+          .mars::before,
+          .jupiter::before,
+          .saturn::before,
+          .uranus::before,
+          .neptune::before,
+          .pluto::before{
+              content: '';
+              position: absolute;
+              border-radius: 50%;
+              animation: orbit 30s linear infinite;
+          }
+          .mercury::before {
+              top: 1.5em;
+              right: 0.8em;
+              width: 2em;
+              height: 2em;
+              background-image: url('./images/na.png');
+              background-size: cover;
+          }
+          .venus::before {
+              top: 2em;
+              right: 2em;
+              width: 2em;
+              height: 2em;
+              background-image: url('./images/to.png');
+              background-size: cover;
+          }
+          .earth::before {
+              top: 3em;
+              right: 0em;
+              width: 5em;
+              height: 5em;
+              background-image: url('./images/ke.png');
+              background-size: cover;
+          }
+
+          .moon::before {
+              top: 0.8em;
+              right: 0.2em;
+              width: 1.2em;
+              height: 1.2em;
+              background-image: url('./images/cv.png');
+              background-size: cover;
+          }
+          .mars::before {
+              top: 5em;
+              right: 3em;
+              width: 3em;
+              height: 3em;
+              background-image: url('./images/an.png');
+              background-size: cover;
+          }
+          .jupiter::before {
+              top: 6em;
+              right: 3em;
+              width: 5em;
+              height: 5em;
+              background-image: url('./images/gh.png');
+              background-size: cover;
+          }
+          .saturn::before {
+              top: 7.5em;
+              right: 5em;
+              width: 4.5em;
+              height: 4.5em;
+              background-image: url('./images/ug.png');
+              background-size: cover;
+          }
+          .uranus::before {
+              top: 9em;
+              right: 6.5em;
+              width: 4em;
+              height: 4em;
+              background-image: url('./images/se.png');
+              background-size: cover;
+          }
+          .neptune::before {
+              top: 10em;
+              right: 8em;
+              width: 4em;
+              height: 4em;
+              background-image: url('./images/et.png');
+              background-size: cover;
+          }
+          .pluto::before {
+              top: 11em;
+              right: 10em;
+              width: 4em;
+              height: 4em;
+              background-image: url('./images/sa.png');
+              background-size: cover;
+          }
+
+          .star {
+              position: absolute;
+              background-color: white;
+              border-radius: 50%;
+              z-index: -1;
+          }
+
+          @keyframes orbit {
+              to {
+                  transform: rotate(360deg);
+              }
+          }
+        </style>
+
+        <div class="container">
+          <div class="sun">
+            <img src="./images/africa2.png" alt="sun">
+          </div>
+          <div class="mercury"></div>
+          <div class="venus"></div>
+          <div class="earth">
+            <div class="moon"></div>
+          </div>
+          <div class="mars"></div>
+          <div class="jupiter"></div>
+          <div class="saturn"></div>
+          <div class="uranus"></div>
+          <div class="neptune"></div>
+          <div class="pluto">
+          </div>
+        </div>
+        
+        <script>
+          function createStars() {
+            const container = document.getElementById('main-section')
+            for (let i = 0; i < 1000; i++) {
+              // Increase the number of stars to 1000
+              const star = document.createElement("div");
+              star.className = "star";
+              star.style.width = ".1px";
+              star.style.height = ".1px";
+              star.style.top = Math.random() * 100 + "%";
+              star.style.left = Math.random() * 100 + "%";
+              container.appendChild(star);
+            }
+          }
+          createStars();
+        </script>
+        
+
+
+        <section id="main-section" style="background-color: rgb(0,0,0,0.6);">
+
+          <div class="container">
+            <div class="row align-items-center py-lg-8 py-6">
+              <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="text-white fs-5 fs-xl-6">Revolutionizing the Igaming Industry 
+                  <!-- Through Smart Partnerships -->
+                </h1>
+                <p class="text-white py-lg-3 py-2">We specialize in building connections that drive exponential growth, pairing businesses with the right affiliates, influencers, and industry leaders. The next big thing isn’t built alone—it’s powered by a network of visionaries working together.</p>
+                <div class="d-sm-flex align-items-center gap-3">
+                  <button class="btn btn-success text-black mb-3 w-75">About Us</button>
+                  <button class="btn btn-outline-light mb-3 w-75">Contact Us</button>
+                </div>
+              </div>
+              <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0">
+                <div class="card py-3 mx-auto d-flex justify-content-center align-items-center py-2 px-2" style="max-height: 400px; max-width: 400px;background-color: rgb(0,0,0,0.3);">
+                  <canvas id="partnersChart" width="300" height="300"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <script>
+              const ctx = document.getElementById('partnersChart').getContext('2d');
+              
+              const data = {
+                  labels: ["North Africa", "West Africa", "East Africa", "Central Africa", "Southern Africa"],
+                  datasets: [
+                      {
+                          type: 'bar',
+                          label: 'Partners',
+                          data: [245, 310, 270, 200, 300],
+                          backgroundColor: [
+                              '#0066b2',  // Medium Green
+                              '#4C516D',  // Lime Green
+                              '#367588',  // Dark Green
+                              '#2c3968',  // Teal
+                              '#002147'   // Light Green
+                          ],
+                          borderColor: '#FFFFFF',
+                          borderWidth: 2
+                      },
+                      {
+                          type: 'line',
+                          label: 'Trend',
+                          data: [245, 310, 270, 200, 300], // Same data for now
+                          borderColor: 'yellow', // Line color
+                          borderWidth: 2,
+                          pointBackgroundColor: 'white',
+                          pointBorderColor: 'yellow',
+                          tension: 0.4 // Smooth line
+                      }
+                  ]
+              };
+          
+              const config = {
+                  type: 'bar',
+                  data: data,
+                  options: {
+                      responsive: true,
+                      animation: {
+                          duration: 3000, 
+                          easing: 'easeInOutQuart'
+                      },
+                      scales: {
+                          x: {
+                              ticks: {
+                                  color: 'white'
+                              }
+                          },
+                          y: {
+                              ticks: {
+                                  color: 'white'
+                              }
+                          }
+                      },
+                      plugins: {
+                          title: {
+                              display: true,
+                              text: 'Partners by Region in Africa',
+                              color: 'white',
+                              font: {
+                                  size: 18,
+                                  weight: 'bold'
+                              },
+                              padding: 20
+                          },
+                          legend: {
+                              display: false // Removed legends
+                          }
+                      }
+                  }
+              };
+          
+              new Chart(ctx, config);
+          </script>
+          
+
+            <div class="swiper">
+              <div class="swiper-container swiper-shadow swiper-theme" data-swiper='{"slidesPerView":2,"breakpoints":{"640":{"slidesPerView":2,"spaceBetween":20},"768":{"slidesPerView":4,"spaceBetween":40},"992":{"slidesPerView":5,"spaceBetween":40},"1024":{"slidesPerView":4,"spaceBetween":50},"1025":{"slidesPerView":6,"spaceBetween":50}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"freeMode":true,"autoplay":{"delay":2500,"disableOnInteraction":false}}'>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide text-center"><img src="assets/img/logos/igamingafrika.png" style="height: 40px;" alt="" /></div>
+                  <div class="swiper-slide text-center"><img src="assets/img/logos/igaming-consult.jpg" style="height: 40px;" alt="" /></div>
+                  <div class="swiper-slide text-center"><img src="assets/img/logos/igamingafrika.png" style="height: 40px;" alt="" /></div>
+                  <div class="swiper-slide text-center"><img src="assets/img/logos/igaming-consult.jpg" style="height: 40px;" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+      </div>
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section>
+
+        <div class="container">
+          <p class="text-center fs-1">Our Services</p>
+          <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Strategic solutions for iGaming growth, optimization, and expansion.</h2>
+          <div class="row gx-xl-7 mt-5">
+            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100 bg-dark py-3 px-3" src="assets/img/services/optimization.svg" style="border-radius: 24px;" alt="" />
+              <h4 class="mt-3 my-1">iGaming Business Optimization</h4>
+              <p class="fs-1 mb-0">Stay ahead of the competition with our tailored business strategies. We offers expert consulting, trend analysis, and operational enhancements to help operators refine their marketing efforts, improve user acquisition, and drive sustainable growth.</p>
+              <!-- <a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+            </div>
+            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100 bg-dark py-3 px-3" src="assets/img/services/expansion.svg" style="border-radius: 24px;" alt="" />
+              <h4 class="mt-3 my-1">Market Expansion & Networking</h4>
+              <p class="fs-1 mb-0">Unlock new opportunities with our industry-leading networking solutions. We connect affiliates, operators, and key stakeholders through exclusive partnerships, events, and collaborative initiatives, ensuring you stay ahead of emerging trends and market shifts.</p>
+              <!-- <a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+            </div>
+            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100 bg-dark py-3 px-3"  src="assets/img/services/monetization.svg" style="border-radius: 24px;" alt="" />
+              <h4 class="mt-3 my-1">Affiliate Growth & Monetization</h4>
+              <p class="fs-1 mb-0">Maximize your earning potential with Afriadz’s strategic affiliate solutions. We provide data-driven insights, performance optimization, and exclusive partnerships to help affiliates expand their reach and increase revenue streams.
+              </p>
+              <!-- <a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section>
+
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-start"><img class="img-fluid" src="assets/img/offer/income.png" alt="" /></div>
+            <div class="col-lg-6">
+              <h1 class="fs-xl-5 fs-lg-4 fs-3">We empower iGaming professionals with top-tier connections, strategic growth, and market expansion.</h1>
+              <ul class="list-unstyled my-xl-5 my-3">
+                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Strategic growth solutions</span></li>
+                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Optimized Performance Strategies</span></li>
+                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Facilitating exclusive partnerships</span></li>
+              </ul>
+              <button class="btn btn-dark">Start now</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pt-8 pt-lg-0">
+
+        <div class="container">
+          <div class="d-flex flex-column-reverse flex-lg-row">
+            <div class="col-lg-6">
+              <h1 class="fs-lg-4 fs-md-3 fs-xl-5 mb-5">We empower our customers with expert strategies, helping them grow and stay ahead.</h1>
+              <ul class="list-unstyled">
+                <li class="fs-2 shadow-sm offer-list-item"><i class="fa-solid fa-leaf fs-lg-4 fs-3"></i><span>We connect our customers with top industry opportunities.</span></li>
+                <li class="fs-2 shadow-sm offer-list-item"><i class="fa-solid fa-eye fs-lg-4 fs-3"></i><span>Success-driven strategies for sustainable expansion.</span></li>
+                <li class="fs-2 shadow-sm offer-list-item"><i class="fa-solid fa-sun fs-lg-4 fs-3"></i><span>Business-to-consumer market acceleration.</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end"><img class="img-fluid" src="assets/img/offer/empowerment.png" alt="" /></div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-dark pt-6">
+
+        <div class="container">
+          <div class="col-md-6">
+            <h1 class="text-white fs-lg-5 fs-md-3 fs-2">Our customers are at the heart of everything we do</h1>
+          </div>
+          <div class="swiper mt-7">
+            <div class="swiper-container swiper-theme" data-swiper='{"slidesPerView":1,"breakpoints":{"640":{"slidesPerView":1,"spaceBetween":10},"768":{"slidesPerView":2,"spaceBetween":20},"1025":{"slidesPerView":3,"spaceBetween":40}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"loop":true,"freeMode":true,"loopedSlides":3}'>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <h4 class="text-black">“They transformed our affiliate strategy, boosting our revenue and expanding our reach”</h4>
+                    <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/001.jpg" style="border-radius: 50%;" alt="" />
+                      <div class="text-black">
+                        <p class="mb-0 fw-bold text-dark">Zainab Diallo</p><small>Affiliate Manager</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <h4 class="text-black">“Their insights and networking opportunities gave our business the competitive edge we needed.”</h4>
+                    <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/002.png" alt="" />
+                      <div class="text-black">
+                        <p class="mb-0 fw-bold text-dark">Thabo Kekana</p><small>iGaming Operator</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <h4 class="text-black">“Afrika Group helped us tap into new audiences and scale efficiently with effective market expansion strategies.”</h4>
+                    <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/003.png" alt="" />
+                      <div class="text-black">
+                        <p class="mb-0 fw-bold text-dark">Kwame Okonkwo</p><small>Industry Leader</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide bg-white p-5 rounded-3 h-auto">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <h4 class="text-black">“Working with Afrika Group was a game-changer, our engagement and revenue skyrocketed!”</h4>
+                    <div class="d-flex align-items-center gap-3 mt-5"><img src="assets/img/review/004.png" alt="" />
+                      <div class="text-black">
+                        <p class="mb-0 fw-bold text-dark">Sarah Chikondi</p><small>iGaming Affiliate</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"><span class="fas fa-arrow-right fs-lg-3 fs-2"></span></div>
+            <div class="swiper-button-prev"><span class="fas fa-arrow-left fs-lg-3 fs-2"></span></div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section>
+
+        <div class="container"><img class="img-fluid" src="assets/img/services/groups2.png" style="border-radius: 15px;" alt="" />
+          <div class="row mt-5 align-items-center">
+            <div class="col-md-6">
+              <h2 class="fs-md-4 fs-3 pt-3">We give our customers the connections and strategies to grow, adapt, and stay ahead in a changing industry.</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item"></div>
+                <h2 class="accordion-header border-bottom" id="srgdgfdgdgg45">
+                  <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#srgdgfdgdgg45tyuu" aria-expanded="false" aria-controls="srgdgfdgdgg45"><span class="fs-1 pe-3">Staying Ahead with Confidence</span></button>
+                </h2>
+                <div class="accordion-collapse collapse" aria-labelledby="srgdgfdgdgg45" data-bs-parent="#accordionFlushExample" id="srgdgfdgdgg45tyuu">
+                  <div class="accordion-body">
+                    <p class="mb-0">The iGaming world moves fast, but we make sure our customers never fall behind. With expert insights and smart strategies, we help them adapt, grow, and keep their edge in the market.</p>
+                  </div>
+                </div>
+                <div class="accordion-item"></div>
+                <h2 class="accordion-header border-bottom" id="sxvdgrfhfh276">
+                  <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#srgdgfdgdgg45tyuu5ghj" aria-expanded="false" aria-controls="sxvdgrfhfh276"><span class="fs-1 pe-3">Building Meaningful Connections</span></button>
+                </h2>
+                <div class="accordion-collapse collapse" aria-labelledby="sxvdgrfhfh276" data-bs-parent="#accordionFlushExample" id="srgdgfdgdgg45tyuu5ghj">
+                  <div class="accordion-body">
+                    <p class="mb-0">Success isn’t just about what you know, it’s about who you know. We help our customers connect with the right people, from affiliates to industry leaders, creating partnerships that open new doors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pb-0 d-none">
+
+        <div class="container">
+          <p class="text-center text-gray fs-1">Our Blog</p>
+          <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Value proposition accelerator product management venture</h2>
+          <div class="row mt-7 gx-xl-7">
+            <div class="col-md-4 text-center text-md-start h-auto mb-5">
+              <div class="d-flex justify-content-between flex-column h-100"><a href="#"><img class="w-75 w-md-100 rounded-2" src="assets/img/blog/1.png" alt="" /></a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"><a href="#">
+                    <p class="fw-bold mb-0 text-black">Category</p>
+                  </a>
+                  <p class="mb-0">November 22, 2021</p>
+                </div><a href="#">
+                  <h5 class="mt-1 mb-3 fs-0 fs-md-1">Pitch termsheet backing validation focus release.</h5>
+                </a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"><img class="img-fluid" src="assets/img/blog/profile1.png" alt="" /><a href="#">
+                    <p class="mb-0 text-gray">Chandler Bing</p>
+                  </a></div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center text-md-start h-auto mb-5">
+              <div class="d-flex justify-content-between flex-column h-100"><a href="#"><img class="w-75 w-md-100 rounded-2" src="assets/img/blog/2.png" alt="" /></a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"><a href="#">
+                    <p class="fw-bold mb-0 text-black">Category</p>
+                  </a>
+                  <p class="mb-0">November 22, 2021</p>
+                </div><a href="#">
+                  <h5 class="mt-1 mb-3 fs-0 fs-md-1">Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</h5>
+                </a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"><img class="img-fluid" src="assets/img/blog/profile2.png" alt="" /><a href="#">
+                    <p class="mb-0 text-gray">Rachel Green</p>
+                  </a></div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center text-md-start h-auto mb-5">
+              <div class="d-flex justify-content-between flex-column h-100"><a href="#"><img class="w-75 w-md-100 rounded-2" src="assets/img/blog/3.png" alt="" /></a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"><a href="#">
+                    <p class="fw-bold mb-0 text-black">Category</p>
+                  </a>
+                  <p class="mb-0">November 22, 2021</p>
+                </div><a href="#">
+                  <h5 class="mt-1 mb-3 fs-0 fs-md-1">Beta prototype sales iPad gen-z marketing network effects value proposition</h5>
+                </a>
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"><img class="img-fluid" src="assets/img/blog/profile3.png" alt="" /><a href="#">
+                    <p class="mb-0 text-gray">Monica Geller</p>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mb-3">
+            <button class="btn btn-outline-dark">Load More</button>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section>
+
+      <div class="container bg-dark overflow-hidden rounded-1">
+        <div class="bg-holder" style="background-image:url(assets/img/promo/promo-bg.png);">
+        </div>
+        <!--/.bg-holder-->
+
+        <div class="px-5 py-7 position-relative">
+          <h1 class="text-center w-lg-75 mx-auto fs-lg-6 fs-md-4 fs-3 text-white">Unlock new opportunities and stay ahead in the iGaming industry.</h1>
+          <div class="row justify-content-center mt-5">
+            <div class="col-auto w-100 w-lg-50">
+              <input class="form-control mb-2 border-light fs-1" type="email" placeholder="Your email address" />
+            </div>
+            <div class="col-auto mt-2 mt-lg-0">
+              <button class="btn btn-success text-dark fs-1">Start now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-0">
+
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-sm-12"><a href="index.html"><img class="img-fluid mb-4" style="height: 90px;" src="assets/img/logob.png"  alt="" /></a>
+            <p class="w-lg-75 text-gray">We specialize in building connections that drive exponential growth, pairing businesses with the right affiliates, influencers, and industry leaders. The next big thing isn’t built alone, it’s powered by a network of visionaries working together.</p>
+          </div>
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Our Brands</h3>
+            <ul class="list-unstyled">
+              <li class="my-3 col-md-4"><a target="_blank" href="https://afriadz.com">Afriadz</a></li>
+              <li class="my-3"><a target="_blank" href="https://igamingafrika.com">iGaming Afrika</a></li>
+              <li class="my-3"><a target="_blank" href="https://igamingconsult.africa">iGaming Consult</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#!">Home</a></li>
+              <li class="mb-3"><a href="#!">About Us</a></li>
+              <li class="mb-3"><a href="#!">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Social Media </h3>
+            <ul class="list-unstyled">
+              <li class="my-3"><a href="#!">LinkedIn <span class="py-1 px-2 rounded-2 bg-success fw-bold text-dark ms-2">Connect</span></a> </li>
+              <li class="my-3"><a href="#!">Twitter</a></li>
+              <li class="my-3"><a href="#!">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/anchorjs/anchor.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/prism/prism.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+  </body>
+
+</html>
