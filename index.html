@@ -407,7 +407,7 @@
           <div class="container">
             <div class="row align-items-center py-lg-8 py-6">
               <div class="col-lg-6 text-center text-lg-start">
-                <h1 class="text-white fs-5 fs-xl-6 "  data-aos="fade-in" data-aos-delay="200">Revolutionizing the Igaming Industry 
+                <h1 class="text-white fs-5 fs-xl-6" id="revolution" >
                   <!-- Through Smart Partnerships -->
                 </h1>
                 <p class="text-white py-lg-3 py-2"  data-aos="fade-up" data-aos-delay="400">We specialize in building connections that drive exponential growth, pairing businesses with the right affiliates, influencers, and industry leaders. The next big thing isn’t built alone—it’s powered by a network of visionaries working together.</p>
@@ -422,6 +422,26 @@
                 </div>
               </div>
             </div>
+
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                  textElement = document.getElementById("revolution")
+
+                  const text = "Revolutionizing the Igaming Industry";
+                  let index = 0;
+
+                  function typeText() {
+                      if (index < text.length) {
+                          textElement.innerHTML += text[index];
+                          index++;
+                          setTimeout(typeText, 100); // Adjust speed here
+                      }
+                  }
+
+                  typeText();
+              });
+
+            </script>
 
             <script>
               const ctx = document.getElementById('partnersChart').getContext('2d');
