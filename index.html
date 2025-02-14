@@ -443,7 +443,7 @@
 
             </script>
 
-            <script>
+            <!-- <script>
               const ctx = document.getElementById('partnersChart').getContext('2d');
               
               const data = {
@@ -516,8 +516,63 @@
               };
           
               new Chart(ctx, config);
-          </script>
-          
+          </script> -->
+
+          <script>
+            const ctx = document.getElementById('partnersChart').getContext('2d');
+        
+            const data = {
+                labels: ["North Africa", "West Africa", "East Africa", "Central Africa", "Southern Africa"],
+                datasets: [
+                    {
+                        label: 'Partners',
+                        data: [245, 310, 270, 200, 300],
+                        backgroundColor: [
+                            '#0066b2',  // Medium Green
+                            '#4C516D',  // Lime Green
+                            'orange',  // Dark Green
+                            '#2c3968',  // Teal
+                            '#002147'   // Light Green
+                        ],
+                        borderColor: '#FFFFFF',
+                        borderWidth: 2
+                    }
+                ]
+            };
+        
+            const config = {
+                type: 'doughnut',
+                data: data,
+                options: {
+                    responsive: true,
+                    animation: {
+                        duration: 3000,
+                        easing: 'easeInOutQuart'
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Partners by Region in Africa',
+                            color: 'white',
+                            font: {
+                                size: 18,
+                                weight: 'bold'
+                            },
+                            padding: 20
+                        },
+                        legend: {
+                            display: false,
+                            labels: {
+                                color: 'white'
+                            }
+                        }
+                    }
+                }
+            };
+        
+            new Chart(ctx, config);
+        </script>
+        
 
             <div class="swiper">
               <div class="swiper-container swiper-shadow swiper-theme" data-swiper='{"slidesPerView":2,"breakpoints":{"640":{"slidesPerView":2,"spaceBetween":20},"768":{"slidesPerView":4,"spaceBetween":40},"992":{"slidesPerView":5,"spaceBetween":40},"1024":{"slidesPerView":4,"spaceBetween":50},"1025":{"slidesPerView":6,"spaceBetween":50}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"freeMode":true,"autoplay":{"delay":2500,"disableOnInteraction":false}}'>
