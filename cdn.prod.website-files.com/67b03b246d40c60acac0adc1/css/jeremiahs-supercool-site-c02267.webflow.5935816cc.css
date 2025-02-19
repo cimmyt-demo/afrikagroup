@@ -2356,6 +2356,21 @@ blockquote {
   line-height: 100%;
 }
 
+.text-yellow{
+  color: #f9a202;
+}
+
+.yellow-button {
+  background-color: #f9a202;
+  text-align: center;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: Roboto Mono, sans-serif;
+  line-height: 100%;
+}
+
 .section {
   padding-top: 160px;
   padding-bottom: 160px;
@@ -2541,6 +2556,17 @@ blockquote {
   font-size: 14px;
   line-height: 150%;
 }
+
+.two-column-grid {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-top: 60px;
+  display: grid;
+}
+
 
 .three-column-grid {
   grid-column-gap: 16px;
@@ -3170,6 +3196,11 @@ blockquote {
     font-size: 19px;
   }
 
+  .two-column-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
   .three-column-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -3296,6 +3327,10 @@ blockquote {
 
   .single-step-wrapper {
     grid-template-columns: 2fr;
+  }
+
+  .two-column-grid {
+    grid-template-columns: 1fr;
   }
 
   .three-column-grid {
@@ -3462,6 +3497,10 @@ blockquote {
 
   .tag {
     font-size: 12px;
+  }
+
+  .two-column-grid {
+    margin-top: 30px;
   }
 
   .three-column-grid {
