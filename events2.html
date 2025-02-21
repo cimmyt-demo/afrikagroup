@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Effect</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            position: relative;
+            background-color: #4CAF50; /* Background color for the hero section */
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            display: inline-block;
+            background-color: white;
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Wave Effect */
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px; /* Adjust height as needed */
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .wave svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Shape the Future with Us</h1>
+        <p>Join a global team of innovators and thinkers who are redefining industries.</p>
+        <a href="#jobListings">Explore Open Positions</a>
+    </div>
+    <!-- Wave Effect -->
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,0V37.7C144,49.7,288,67.7,432,65.3C576,62.7,720,37.3,864,40C1008,42.7,1152,85.3,1296,90.7C1440,96,1440,0,1440,0Z"></path>
+        </svg>
+    </div>
+</section>
+
+</body>
+</html>
